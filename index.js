@@ -33,9 +33,9 @@ btn3.addEventListener("click", () => {
 });
 
 btn4.addEventListener("click", () => {
-  if (card4.classList.toggle("show")) {
+  if (card1.classList.toggle("show")) {
     btn4.innerHTML = "Collapse";
   } else {
-    btn4.innerHTML = "Expand";
+    btn1.innerHTML = "Expand";
   }
 });
